@@ -25,25 +25,20 @@ This repository is focused on learning and applying object-oriented design princ
 - Writing clean and maintainable Java code
 - Designing extensible systems
 
-## 📁 Repository Structure
+## 📁 Project Structure
 
 ```text
-Low-Level-Design/
-├── .idea/                         # IntelliJ IDEA configuration
-├── .mvn/                          # Maven configuration
-│
+low-level-design/
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── org.LLD/
-│   │   │       ├── DocEditor/     # Document Editor LLD project
-│   │   │       └── projNew/       # Upcoming LLD projects
-│   │   │
-│   │   └── resources/             # Application resources
-│   │
-│   └── test/                      # Tests
+│   └── main/
+│       └── java/
+│           └── org/
+│               └── LLD/
+│                   └── DocEditor/
+│                       ├── editor/
+│                       ├── model/
+│                       ├── persistence/
+│                       └── DocumentEditorClient.java
 │
-├── target/                        # Maven build output
 ├── .gitignore
-├── document.txt
-└── pom.xml
+└── README.md
