@@ -54,3 +54,6 @@ out/
 
 # OS files
 Thumbs.db
+
+pom.xml
+document.txt
